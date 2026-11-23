@@ -7,10 +7,10 @@ This repository holds the method, the baselines it is compared with, the prepara
 ## Install
 
 ```bash
-pip install -e .                 # the package and its dependencies
-pip install -r requirements.txt  # optional: the exact versions this release was checked with
-pip install -e ".[llava]"        # optional: the LLaVA pools
+pip install -r requirements.txt  # the versions this code was checked with; the last block of the file is for the LLaVA pools only
 ```
+
+There is nothing else to install. Run every command below from the repository folder.
 
 The experiments ran on Python 3.13 with PyTorch 2.13 (CUDA 12.6) and Transformers 4.57, one NVIDIA RTX 3090 per run.
 
@@ -136,7 +136,7 @@ python -m onemetric.llava_length --stage mixes                                  
 ## Tests
 
 ```bash
-pip install -e ".[test]"
+pip install pytest
 python -m pytest tests
 ```
 
@@ -147,7 +147,3 @@ The tests need no data and no GPU. They check the spectral end on random clients
 - `external/clip_benchmark/` contains class names and templates from CLIP Benchmark (MIT license) and templates derived from the DC-Merge repository (MIT license).
 - The KnOTS templates in `clip_backend.py` are those of the KnOTS repository (MIT license).
 - Chain of Merges, the twelve one-shot merges, RobustMerge, FedFisher, FedLPA, GH-OFL, Core Space, and PGSB are our re-implementations from the papers. No code of theirs is included.
-
-## License
-
-MIT. See `LICENSE`.

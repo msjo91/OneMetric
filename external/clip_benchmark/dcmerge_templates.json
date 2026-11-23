@@ -1,0 +1,83 @@
+{
+ "cifar10": [
+  "a photo of a {}.",
+  "a blurry photo of a {}.",
+  "a black and white photo of a {}.",
+  "a low contrast photo of a {}.",
+  "a high contrast photo of a {}.",
+  "a bad photo of a {}.",
+  "a good photo of a {}.",
+  "a photo of a small {}.",
+  "a photo of a big {}.",
+  "a photo of the {}.",
+  "a blurry photo of the {}.",
+  "a black and white photo of the {}.",
+  "a low contrast photo of the {}.",
+  "a high contrast photo of the {}.",
+  "a bad photo of the {}.",
+  "a good photo of the {}.",
+  "a photo of the small {}.",
+  "a photo of the big {}."
+ ],
+ "cifar100": [
+  "a photo of a {}.",
+  "a blurry photo of a {}.",
+  "a black and white photo of a {}.",
+  "a low contrast photo of a {}.",
+  "a high contrast photo of a {}.",
+  "a bad photo of a {}.",
+  "a good photo of a {}.",
+  "a photo of a small {}.",
+  "a photo of a big {}.",
+  "a photo of the {}.",
+  "a blurry photo of the {}.",
+  "a black and white photo of the {}.",
+  "a low contrast photo of the {}.",
+  "a high contrast photo of the {}.",
+  "a bad photo of the {}.",
+  "a good photo of the {}.",
+  "a photo of the small {}.",
+  "a photo of the big {}."
+ ],
+ "flowers102": [
+  "a photo of a {}, a type of flower."
+ ],
+ "oxfordpets": [
+  "a photo of a {}, a type of pet."
+ ],
+ "stl10": [
+  "a photo of a {}.",
+  "a blurry photo of a {}.",
+  "a black and white photo of a {}.",
+  "a low contrast photo of a {}.",
+  "a high contrast photo of a {}.",
+  "a bad photo of a {}.",
+  "a good photo of a {}.",
+  "a photo of a small {}.",
+  "a photo of a big {}.",
+  "a photo of the {}.",
+  "a blurry photo of the {}.",
+  "a black and white photo of the {}.",
+  "a low contrast photo of the {}.",
+  "a high contrast photo of the {}.",
+  "a bad photo of the {}.",
+  "a good photo of the {}.",
+  "a photo of the small {}.",
+  "a photo of the big {}."
+ ],
+ "sst2": [
+  "a {} review of a movie."
+ ],
+ "fashionmnist": [
+  "a photo of a {}.",
+  "a photo of the {}."
+ ],
+ "fer2013": [
+  "a photo of a {} looking face.",
+  "a photo of a face showing the emotion: {}.",
+  "a photo of a face looking {}.",
+  "a face that looks {}.",
+  "they look {}.",
+  "look at how {} they are."
+ ]
+}

@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.egg-info/
+results/
+data/
+external/*
+!external/clip_benchmark/
+.build_report.json

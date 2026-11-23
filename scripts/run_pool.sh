@@ -13,10 +13,10 @@ case $kind in
   *) echo "kind must be dc, knots, siglip or dino"; exit 1 ;;
 esac
 PY=${PYTHON:-python}
-env $P $PY -m onemetric.run_chain_of_merges                 # Chain of Merges merge of the pool (also a baseline row)
-env $P $PY -m onemetric.run_method                          # one-shot Gram end
-env $P MR_SEQ=1 $PY -m onemetric.run_method                 # sequential Gram end
-env $P MR_SEQ=1 MR_SEQCUT=0.5 $PY -m onemetric.run_method   # half-sequential Gram end
-env $P MR_COMEND=1 $PY -m onemetric.run_method              # Chain of Merges Gram end
-env $P MR_ADDON=1 $PY -m onemetric.run_method               # anchored points
-$PY -m onemetric.summarize --kind $kind --arch $arch --pools $pool
+env $P $PY -m src.method.run_chain_of_merges                 # Chain of Merges merge of the pool (also a baseline row)
+env $P $PY -m src.method.run_method                          # one-shot Gram end
+env $P MR_SEQ=1 $PY -m src.method.run_method                 # sequential Gram end
+env $P MR_SEQ=1 MR_SEQCUT=0.5 $PY -m src.method.run_method   # half-sequential Gram end
+env $P MR_COMEND=1 $PY -m src.method.run_method              # Chain of Merges Gram end
+env $P MR_ADDON=1 $PY -m src.method.run_method               # anchored points
+$PY -m src.method.summarize --kind $kind --arch $arch --pools $pool

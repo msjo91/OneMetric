@@ -1,6 +1,6 @@
 """The spectral end on random clients: rank, orthonormal left directions, right directions orthonormal in the input metric."""
 import numpy as np
-from onemetric import spectral_end as S
+from src.method import spectral_end as S
 
 
 def make(K=8, d_out=256, d_in=192, r=16, seed=0):

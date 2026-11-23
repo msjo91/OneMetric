@@ -1,5 +1,5 @@
 """The server's choice across the five run records: highest score, the stated tie order, and the anchored point only when strictly better."""
-from onemetric.summarize import server_choice, C_GRID
+from src.method.summarize import server_choice, C_GRID
 
 
 def run(score, retention):

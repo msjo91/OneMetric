@@ -6,7 +6,7 @@
 !/LICENSE
 !/pyproject.toml
 !/requirements.txt
-!/onemetric/
+!/src/
 !/tests/
 !/scripts/
 /scripts/*

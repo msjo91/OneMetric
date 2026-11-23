@@ -1,8 +1,20 @@
+# This folder is also the working project. Only the code below is tracked;
+# results, data, the paper, notes, and the experiment scripts stay local.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/pyproject.toml
+!/requirements.txt
+!/onemetric/
+!/tests/
+!/scripts/
+/scripts/*
+!/scripts/run_pool.sh
+!/external/
+/external/*
+!/external/clip_benchmark/
 __pycache__/
 *.pyc
 *.egg-info/
-results/
-data/
-external/*
-!external/clip_benchmark/
 .build_report.json
